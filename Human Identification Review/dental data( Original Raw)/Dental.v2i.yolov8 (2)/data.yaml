@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['LCD', 'LCU', 'LID', 'LIU', 'LMD', 'LMU', 'LPMD', 'LPMU', 'RCD', 'RCU', 'RID', 'RIU', 'RMD', 'RMU', 'RPMD', 'RPMU']
+
+roboflow:
+  workspace: dental-2cwjj
+  project: dental-lrlpt
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/dental-2cwjj/dental-lrlpt/2
